@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "twitter"
+version = "0.1.0"
+description = ""
+authors = ["ducnguyen-theinfitech <duc_nguyen@theinfitech.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+playwright = "^1.49.0"
+tqdm = "^4.67.1"
+tiktoken = "^0.8.0"
+openai = "^1.55.3"
+psycopg2-binary = "^2.9.10"
+python-dotenv = "^1.0.1"
+xvfbwrapper = "^0.2.9"
+sqlmodel = "^0.0.22"
+pydantic = "^2.10.4"
+boto3 = "^1.35.90"
+pandas = "^2.2.3"
+filetype = "^1.2.0"
+beautifulsoup4 = "^4.12.3"
+pyotp = "^2.9.0"
+lxml = "^5.3.0"
+pyarrow = "^18.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
